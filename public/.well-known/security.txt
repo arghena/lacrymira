@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Acknowledgments: https://hqsy.net/humans.txt
+Canonical: https://hqsy.net/.well-known/security.txt
+Contact: mailto:shigure@hqsy.net
+Encryption: https://hqsy.net/pgp-key.txt
+Expires: 2025-10-24T00:00:00Z
+Policy: https://hqsy.net/disclosure-policy.txt
+Preferred-Languages: en
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQbo4G79wvzTd8LgxoAIk7069IKhAUCaONhoQAKCRAAIk7069IK
+hEqPAQD4wF6JpnN9rUSe3TzSvBz1w1fPRNfrxfXPPvnvzxxE7AEAi4LQsIGoUQIx
+XqkWqPEaBjLQeOxuTcnYvMxxKNWAYQU=
+=ilGj
+-----END PGP SIGNATURE-----

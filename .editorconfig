@@ -1,0 +1,25 @@
+# NOTE: EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs.
+# https://editorconfig.org
+
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+[*.tsx]
+max_line_length = 80
+
+[*.{ts,mjs}]
+indent_size = 4
+max_line_length = 100
+
+[*.{md,mdx}]
+# Double whitespace at end of line
+# denotes a line break in Markdown.
+trim_trailing_whitespace = false

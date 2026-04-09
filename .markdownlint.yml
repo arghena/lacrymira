@@ -1,0 +1,8 @@
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md
+MD013: false
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md004.md
+MD004:
+  style: dash
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md029.md
+MD029:
+  style: one

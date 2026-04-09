@@ -1,0 +1,7 @@
+const prettierConfig = {
+    singleQuote: true,
+    semi: false,
+    plugins: ['prettier-plugin-tailwindcss'],
+}
+
+export default prettierConfig

@@ -1,0 +1,28 @@
+name: Lock Threads
+
+on:
+  schedule:
+    # Runs daily.
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  lock-threads:
+    permissions:
+      issues: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    name: Run lock threads
+    if: ${{ github.repository_owner == 'arghena' }}
+    steps:
+      - name: Lock threads
+        uses: dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7 # v6.0.0
+        with:
+          add-issue-labels: 'locked'
+          add-pr-labels: 'locked'
+          issue-inactive-days: 14
+          issue-comment: This closed issue has been automatically locked because it had no new activity for 2 weeks.
+          pr-inactive-days: 14
+          log-output: true

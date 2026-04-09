@@ -1,0 +1,39 @@
+[match]
+dot = true
+
+[schedule]
+linters = ["node-audit"]
+
+[formatters]
+prettier = [
+  "**/*.yml",
+  "**/*.yaml",
+  "!**/pnpm-lock.yaml",
+  "**/*.ts",
+  "**/*.tsx",
+  "**/*.css",
+  "**/*.mjs",
+  "**/*.md",
+  "**/*.mdx",
+  "**/*.json",
+]
+tombi = ["**/*.toml"]
+
+[linters]
+node-audit = ["**/package.json", "**/pnpm-lock.yaml"]
+node-dedupe = ["**/package.json", "**/pnpm-lock.yaml"]
+trivy = ["**/package.json", "**/pnpm-lock.yaml"]
+typos = ["**/*", "!public/**", "!**/*.png", "!**/*.ico"]
+yamllint = ["**/*.yml", "**/*.yaml", "!**/pnpm-lock.yaml"]
+actionlint = [".github/workflows/*.yml"]
+eslint = ["**/*.ts", "**/*.tsx"]
+ast-grep = ["**/*.ts", "**/*.tsx"]
+alex = ["**/*.md", "**/*.mdx"]
+markdownlint-cli2 = ["**/*.md", "**/*.mdx"]
+vale = ["**/*.md", "**/*.mdx"]
+tombi = ["**/*.toml"]
+
+[args.linters]
+yamllint = ["--strict"]
+tombi = ["--error-on-warnings"]
+eslint = ["--max-warnings", "0"]

@@ -1,0 +1,10 @@
+/* TEAM */
+Contact: mailto:shigure@hqsy.net
+Location: CA
+Name: Shigure Kurosaki
+Role: Developer
+URL: https://hqsy.net
+
+/* THANKS */
+Entity: Open Source Communities
+Support: Community Support

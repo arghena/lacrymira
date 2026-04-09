@@ -1,41 +1,50 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# You can use `.git/info/exclude` to configure your local ignore list.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+## File System
 .DS_Store
-*.pem
+desktop.ini
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+## Editor
+*.swp
+*.swo
+Session.vim
+.idea
+*.iml
+.vscode
+.project
+.vim
+.helix
+.zed
+.favorites.json
+.settings
+.vs
 
-# env files (can opt-in for committing if needed)
+## Dependencies
+node_modules
+
+## ESLint
+.eslintcache
+
+## Vale
+.config/vale/styles/Google
+
+## Next.js
+.next
+
+## Environment
 .env*
 
-# vercel
+## Vercel
 .vercel
 
-# typescript
+## TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+## Temporary Files
+*~
+\#*
+\#*\#
+.#*
+
+# Before adding new lines, see the comment at the top.

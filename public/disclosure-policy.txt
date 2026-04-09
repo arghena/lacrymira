@@ -1,0 +1,39 @@
+Subject: Vulnerability Report: [Short Summary]
+
+Name: [Your Name]
+Contact: [Your Email]
+Date: [YYYY-MM-DD]
+
+Summary:
+[Provide a brief summary of the vulnerability]
+
+Steps to Reproduce:
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
+
+Impact:
+[Describe the potential impact of the vulnerability]
+
+Component:
+[Name and version of the affected component]
+
+Environment:
+- OS: [Operating System and version]
+- Browser: [Browser and version]
+- Dependencies: [List of dependencies]
+
+PoC:
+[Attach or describe proof of concept]
+
+Disclosure Intentions:
+[State your intentions for public disclosure, if any]
+
+Fix Suggestions:
+[Optional suggestions for fixing the issue]
+
+Notes:
+[Any additional information]
+
+Best regards,
+[Your Name]

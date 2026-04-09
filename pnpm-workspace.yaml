@@ -1,3 +1,5 @@
 ignoredBuiltDependencies:
+  # This doesn't affect the build.
+  # https://github.com/vercel/next.js/blob/6d4a405f4ad9a4173f8b06e80e836b8a104f406c/packages/create-next-app/templates/index.ts#L333-L341
   - sharp
   - unrs-resolver

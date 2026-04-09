@@ -1,0 +1,35 @@
+name: CD
+
+on:
+  push:
+    tags: ['v[0-9]+.[0-9]+.[0-9]+', 'v[0-9]+.[0-9]+.[0-9]+-canary.[0-9]+']
+
+permissions:
+  contents: read
+
+jobs:
+  create-release-note:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    name: Create release note
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+      - name: Set node
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version: lts/*
+      - name: Enable pnpm
+        run: corepack enable pnpm
+      - name: Generate release note
+        run: |
+          if [[ $GITHUB_REF_NAME == *canary* ]]; then
+            pnpm dlx changelogithub --prerelease
+          else
+            pnpm dlx changelogithub
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
