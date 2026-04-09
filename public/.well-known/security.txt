@@ -5,13 +5,14 @@ Acknowledgments: https://hqsy.net/humans.txt
 Canonical: https://hqsy.net/.well-known/security.txt
 Contact: mailto:shigure@hqsy.net
 Encryption: https://hqsy.net/pgp-key.txt
-Expires: 2025-10-24T00:00:00Z
+Expires: 2026-10-24T00:00:00Z
 Policy: https://hqsy.net/disclosure-policy.txt
 Preferred-Languages: en
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQbo4G79wvzTd8LgxoAIk7069IKhAUCaONhoQAKCRAAIk7069IK
-hEqPAQD4wF6JpnN9rUSe3TzSvBz1w1fPRNfrxfXPPvnvzxxE7AEAi4LQsIGoUQIx
-XqkWqPEaBjLQeOxuTcnYvMxxKNWAYQU=
-=ilGj
+iJEEARYKADkWIQQbo4G79wvzTd8LgxoAIk7069IKhAUCadfPyBsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQACJO9OvSCoSZZgD/YPyd409ZrntdZa5zDoM7
+CjUVtvgjDFuenCHntZwBvl8A/3ahOxlHx8buuvzuRrozXz6K7ychGyWVWJT+JdOv
+ubsP
+=kP/5
 -----END PGP SIGNATURE-----
