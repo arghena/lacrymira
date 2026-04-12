@@ -10,6 +10,7 @@ on:
     paths:
       - '**/*.ts'
       - '**/*.tsx'
+      - '**/*.mdx'
       - '**/*.css'
       - '**/package.json'
       - '**/pnpm-lock.yaml'
@@ -17,6 +18,7 @@ on:
     paths:
       - '**/*.ts'
       - '**/*.tsx'
+      - '**/*.mdx'
       - '**/*.css'
       - '**/package.json'
       - '**/pnpm-lock.yaml'
