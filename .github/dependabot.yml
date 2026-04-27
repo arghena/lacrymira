@@ -28,6 +28,11 @@ updates:
           - react-dom
           - babel-plugin-react-compiler
           - eslint-config-next
+      tailwindcss:
+        patterns:
+          - '@tailwindcss/postcss'
+          - prettier-plugin-tailwindcss
+          - tailwindcss
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
