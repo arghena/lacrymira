@@ -5,3 +5,5 @@ allowBuilds:
   sharp: false
   unrs-resolver: false
 dedupePeers: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 10080 # 1 week
