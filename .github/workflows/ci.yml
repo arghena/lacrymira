@@ -27,6 +27,8 @@ permissions:
   contents: read
 
 jobs:
+  # TODO: Waiting for bundle-analyzer to support Turbopack.
+  # https://github.com/codecov/codecov-javascript-bundler-plugins/issues/251
   build-check:
     name: Build check
     runs-on: ubuntu-latest
