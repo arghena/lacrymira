@@ -16,9 +16,13 @@
       "name": "node",
       "version": "^24.19.0",
       "onFail": "download"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.24.0",
+      "onFail": "download"
     }
   },
-  "packageManager": "pnpm@10.34.5",
   "dependencies": {
     "next": "16.3.2",
     "react": "19.2.8",
