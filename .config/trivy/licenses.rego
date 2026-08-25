@@ -1,5 +1,6 @@
 package trivy
 
+# This won't taint anything.
 ignore {
     input.Type == "license"
 

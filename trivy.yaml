@@ -3,6 +3,8 @@ exit-code: 1
 ignore-policy: .config/trivy/licenses.rego
 
 scan:
+  disable-telemetry: true
+  skip-version-check: true
   scanners:
     - license
 
