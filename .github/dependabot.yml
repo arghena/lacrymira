@@ -12,6 +12,8 @@ updates:
       interval: 'cron'
       # Runs every Monday.
       cronjob: '0 0 * * 1'
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 10
     labels: ['build']
     commit-message:
@@ -36,6 +38,8 @@ updates:
       interval: 'cron'
       # Runs every Monday.
       cronjob: '0 0 * * 1'
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 10
     labels: ['ci']
     commit-message:
