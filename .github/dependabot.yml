@@ -29,7 +29,7 @@ updates:
           - eslint-config-next
       tailwindcss:
         patterns:
-          - '@tailwindcss/postcss'
+          - '@tailwindcss/turbopack'
           - prettier-plugin-tailwindcss
           - tailwindcss
   - package-ecosystem: 'github-actions'
