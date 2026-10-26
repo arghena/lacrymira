@@ -160,13 +160,9 @@ lockfileVersion: '9.0'
 
 settings:
   addMissingPeerTypes: true
-  autoDedupe: true
   autoInstallPeers: true
-  dedupeInjectedDeps: true
-  dedupePeerDependents: true
   dedupePeers: true
   excludeLinksFromLockfile: false
-  linkWorkspacePackages: false
 
 importers:
 
